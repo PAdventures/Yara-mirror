@@ -1,16 +1,26 @@
-# Yara — The open-source multi-tool Discord Bot
+# Yara — The multi-tool Discord Bot
 
-Yara is an Open-Source Discord Bot that can and will help you moderate your server on Discord and keep it safe from unwanted people. No unfortunately we are not as sophisticated as a Discord Bot such as Wick, but Yara has some handy features for you and they are all free to use!
+Yara is a Discord Bot that can and will help you moderate your server on Discord and keep it safe from unwanted people. No unfortunately we are not as sophisticated as a Discord Bot such as Wick, but Yara has some handy features for you and they are all free to use!
 
 ## Before you continue reading
 
-> Yara is built using the command manager [reciple](https://github.com/thenorthsolution/Reciple) and [Discord.js](https://github.com/discordjs/discord.js), please go ahead and give them some credit as this would not have been possible without them!
+> Yara is built using the frameworks [reciple](https://github.com/thenorthsolution/Reciple) and [Discord.js](https://github.com/discordjs/discord.js), please go ahead and give them some credit as this would not have been possible without them!
 
 ## Information
 
 Yara currently is under construction. Yes how unfortunate for you! However, soon Yara will be released to you, the public, in good time.
 
-Yara uses [PlanetScale](https://planetscale.com), a MySQL-type database, to store information and the [Object-relational-mapper](https://en.wikipedia.org/wiki/Object–relational_mapping), [Drizzle](https://orm.drizzle.team)
+### Yara's Technologies
+
+Yara, as mentioned earlier, uses a Discord.js framework called [reciple](https://github.com/thenorthsolution/Reciple) which was made by an amazing team at [The North Solution](https://www.thenorthsolution.com). The framework work alongside another, more known, framework called [Discord.js](https://github.com/discordjs/discord.js). Yara will always use the latest versions for reciple which also updates to amount for discord.js updates.
+
+Yara uses [PlanetScale](https://planetscale.com), a MySQL-type database, to store information and the [Object-relational-mapper](https://en.wikipedia.org/wiki/Object–relational_mapping), [Drizzle](https://orm.drizzle.team) which helps out by turning TypeScript object-like queries into SQL queries which are executed on the PlanetScale database.
+
+### What happened to the open source project
+
+As you may have noticed, this is not the actual repository for Yara, that is because Yara's source code is **not available for the public** as of the 20th December 2023.
+
+Initially I wanted this to be an open source project, however the complications with dealing with people wanting to use the source code instead of contributing to the project would have caused too many issue
 
 ## Want to open an issue or request a feature?
 
